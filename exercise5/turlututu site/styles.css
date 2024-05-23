@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 10px;
+}
+
+header button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url("hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.features {
+    background-color: #fff;
+    padding: 4rem 0;
+}
+
+.feature-item {
+    padding: 4rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+}
+
+.feature-item h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.testimonials {
+    background-color: #333;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.testimonials-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonials-logos img {
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-content ul li {
+    margin: 0 1rem;
+}
+
+.footer-content p {
+    margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Added styles for buttons and colors */
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #444;
+}
+
+.btn-circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.btn-circle i {
+    line-height: 1.4;
+}
+
+.btn-circle:hover {
+    background-color: #444;
+}
+
+.btn-circle:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-circle:active {
+    background-color: #333;
+}
+
+.btn-circle.active {
+    background-color: #444;
+}
+
+.btn-circle.disabled,
+.btn-circle[disabled] {
+    background-color: #333;
+}
+
+.btn-circle.disabled:hover,
+.btn-circle[disabled]:hover {
+    background-color: #333;
+}
+
+.btn-circle.disabled:focus,
+.btn-circle[disabled]:focus {
+    background-color: #333;
+}
+
+.btn-circle.disabled:active,
+.btn-circle[disabled]:active {
+    background-color: #333;
+}
+
+.btn-circle.active,
+.btn-circle:active {
+    background-image: none;
+    box-shadow: none;
+}
+
+.btn-circle.focus,
+.btn-circle:focus {
+    background-image: none;
+    box-shadow: none;
+}
+
+.btn-circle:not(:disabled):not(.disabled):active:focus,
+.btn-circle:not(:disabled):not(.disabled).active:focus,
+.show > .btn-circle.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-circle:not(:disabled):not(.disabled):active,
+.btn-circle:not(:disabled):not(.disabled).active,
+.show > .btn-circle.dropdown-toggle {
+    background-image: none;
+    box-shadow: none;
+}
+
+.btn-circle:not(:disabled):not(.disabled).active,
+.btn-circle:not(:disabled):not(.disabled):active {
+    background-color: #444;
+    box-shadow: none;
+}
+
+.btn-circle:not(:disabled):not(.disabled).active:focus,
+.btn-circle:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+}
+
+.btn-circle:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-circle:hover {
+    background-color: #444;
+}
+
+.btn-circle:active {
+    background-color: #333;
+}
+
+.btn-circle.active {
+    background-color: #444;
+}
+
+.btn-circle.disabled,
+.btn-circle[disabled] {
+    background-color: #333;
+}
+
+.btn-circle.disabled:hover,
+.btn-circle[disabled]:hover {
+    background-color: #333;
+}
+
+.btn-circle.disabled:focus,
+.btn-circle[disabled]:focus {
+    background-color: #333
+}

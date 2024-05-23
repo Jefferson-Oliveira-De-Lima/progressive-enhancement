@@ -1,0 +1,167 @@
+/* Added styles for buttons and colors */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.btn:hover {
+    background-color: #f5f5f5;
+}
+
+.btn-circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.btn-circle i {
+    line-height: 1.4;
+}
+
+.btn-circle:hover {
+    background-color: #f5f5f5;
+}
+
+.content {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.right-side {
+    width: calc(100% - 60px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.search-box input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    flex: 1;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+.card-body {
+    margin: 0;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .left-side {
+        display: none;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+}
