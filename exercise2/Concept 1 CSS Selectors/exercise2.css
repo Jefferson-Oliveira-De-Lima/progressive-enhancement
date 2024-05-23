@@ -1,0 +1,11 @@
+/* Style les liens pour qu'ils soient facilement lisibles */
+a {
+    color: blue;
+    text-decoration: underline;/
+}
+
+/* Style pour les états hover et visited des liens */
+a:hover,
+a:visited {
+    color: purple;
+}

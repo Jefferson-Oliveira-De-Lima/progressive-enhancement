@@ -1,0 +1,5 @@
+/* Ajouter une bordure Firebrick de 3px à gauche de chaque citation */
+.quote {
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+}

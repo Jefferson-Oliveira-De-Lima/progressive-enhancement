@@ -1,0 +1,5 @@
+/* Assurer que les citations ne couvrent que la moitié de la largeur de la page */
+.quote {
+    width: 50%;
+    margin: 0 auto;
+}

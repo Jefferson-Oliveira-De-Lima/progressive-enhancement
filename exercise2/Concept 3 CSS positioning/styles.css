@@ -1,0 +1,25 @@
+/* Use flexbox to make the text run around the images */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+}
+
+.quote img {
+    margin-right: 20px;
+}
+
+/* Put the notification block in the bottom right corner */
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,4 @@
+/* Ajouter une couleur grisâtre légère à l'arrière-plan des citations */
+.quote {
+    background-color: #f5f5f5;
+}

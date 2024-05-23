@@ -1,0 +1,5 @@
+/* Assurer un espace vide de 80 pixels au-dessus et en dessous des citations */
+.quote {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}

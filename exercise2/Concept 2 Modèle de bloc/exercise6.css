@@ -1,0 +1,4 @@
+/* Ajouter un espace de 30px entre la bordure et le texte de la citation */
+.quote p {
+    padding-left: 30px;
+}

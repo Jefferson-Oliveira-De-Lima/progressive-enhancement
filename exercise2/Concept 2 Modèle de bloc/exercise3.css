@@ -1,0 +1,4 @@
+/* Augmenter la taille du texte des citations à 160% de la taille par défaut */
+.quote p {
+    font-size: 160%;
+}

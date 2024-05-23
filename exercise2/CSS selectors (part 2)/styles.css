@@ -1,0 +1,18 @@
+/* Italics the text of the quotations */
+.quote p {
+    font-style: italic;
+}
+
+/* Assign classes to identify quotes of villagers and farmer */
+.quote.farmer {
+    border-left-color: green;
+}
+
+.quote.villagers {
+    border-left-color: blue;
+}
+
+/* Select an element of the header and gives it a yellow background */
+header > h1 {
+    background-color: yellow;
+}

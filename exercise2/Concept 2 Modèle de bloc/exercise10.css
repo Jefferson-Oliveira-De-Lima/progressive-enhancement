@@ -1,0 +1,7 @@
+/* Ajouter une image de fond au corps */
+body {
+    background-image: url('background_image.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
